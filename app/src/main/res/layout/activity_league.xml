@@ -19,7 +19,7 @@
             android:layout_width="88dp"
             android:layout_height="29dp" app:srcCompat="@drawable/swooshlogo"
             android:id="@+id/imageView2"
-            app:layout_constraintTop_toTopOf="@+id/imageView3" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="8dp" android:layout_marginTop="24dp"
             android:contentDescription="@string/app_logo"/>
@@ -63,9 +63,10 @@
             android:text="@string/next"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/button2" android:layout_marginBottom="8dp"
+            android:id="@+id/leagueNextBtn" android:layout_marginBottom="16dp"
             app:layout_constraintBottom_toBottomOf="@+id/imageView3" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="8dp" android:textAlignment="center" android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp" android:textAlignment="center" android:layout_marginStart="16dp"
             app:layout_constraintStart_toStartOf="parent" android:background="@drawable/swoosh_button"
-            android:textColor="@android:color/white" android:fontFamily="@font/montserrat"/>
+            android:textColor="@android:color/white" android:fontFamily="@font/montserrat"
+            android:onClick="leagueNextClicked"/>
 </android.support.constraint.ConstraintLayout>
